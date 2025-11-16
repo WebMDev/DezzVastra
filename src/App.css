@@ -1,0 +1,62 @@
+/* ------------ common style ------------ */
+.common-padding {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* --------------- navbar start -------------- */
+/* .nav-item {
+  position: relative;
+  padding: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+  color: #3c3eb5;
+}
+
+.nav-item::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 3px;
+  transform: translateX(-50%);
+  width: 0;
+  height: 1.5px;
+  background-color: #3c3eb5;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-item:hover::after {
+  width: 65%;
+}
+
+.nav-item.product:hover::after {
+  width: 70%;
+} */
+/* --------------- navbar end -------------- */
+
+/* -------------- Tablet (min-width: 768px) -------------- */
+@media (min-width: 768px) {
+  .common-padding {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+/* -------------- Laptop (min-width: 1024px) -------------- */
+@media (min-width: 1024px) {
+  .common-padding {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+/* -------------- Desktop (min-width: 1280px) -------------- */
+@media (min-width: 1280px) {
+  .common-padding {
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+}
