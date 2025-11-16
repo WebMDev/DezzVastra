@@ -25,7 +25,7 @@ const Carousel = () => {
         className="w-full">
           {CardItem.map((card, id) => (
 
-            <SwiperSlide key={id} className='relative w-full rounded-[400px] px-3 md:px-3 cursor-pointer brightness-90 transition-all duration-300 ease-in-out hover:brightness-100 font-semibold hover:text-[#2e2f91]'>
+            <SwiperSlide key={id} className='relative w-full rounded-[400px] px-3 md:my-8 md:px-3 cursor-pointer brightness-90 transition-all duration-300 ease-in-out hover:brightness-100 font-semibold hover:text-[#2e2f91]'>
                 
                 <img
                   src={card.img}
