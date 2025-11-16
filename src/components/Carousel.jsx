@@ -6,6 +6,17 @@ import { Navigation, Autoplay } from 'swiper/modules';
 const Carousel = () => {
   return (
     <>
+
+      <style>
+      {`
+        .swiper-button-next,
+        .swiper-button-prev {
+          top: 50% !important;
+          transform: translateY(-50%) !important;
+        }
+      `}
+      </style>
+
       {/* Categories Slider */}
       <div className='flex justify-center w-full h-[60vh] bg-white common-padding'>
         
@@ -22,7 +33,7 @@ const Carousel = () => {
           1024: { slidesPerView: 4 },
           1440: { slidesPerView: 6 }
         }}
-        className="w-full">
+        className="w-full relative">
           {CardItem.map((card, id) => (
 
             <SwiperSlide key={id} className='relative w-full rounded-[400px] px-3 md:my-8 md:px-3 cursor-pointer brightness-90 transition-all duration-300 ease-in-out hover:brightness-100 font-semibold hover:text-[#2e2f91]'>
