@@ -6,19 +6,8 @@ import { Navigation, Autoplay } from 'swiper/modules';
 const Carousel = () => {
   return (
     <>
-
-      <style>
-      {`
-        .swiper-button-next,
-        .swiper-button-prev {
-          top: 50% !important;
-          transform: translateY(-50%) !important;
-        }
-      `}
-      </style>
-
       {/* Categories Slider */}
-      <div className='flex justify-center w-full h-[60vh] bg-white common-padding'>
+      <div className='flex justify-center w-full min-h-[50vh] py-10 bg-white common-padding'>
         
         <Swiper  modules={[Navigation, Autoplay]}
         navigation
@@ -36,12 +25,12 @@ const Carousel = () => {
         className="w-full relative">
           {CardItem.map((card, id) => (
 
-            <SwiperSlide key={id} className='relative w-full rounded-[400px] px-3 md:my-8 md:px-3 cursor-pointer brightness-90 transition-all duration-300 ease-in-out hover:brightness-100 font-semibold hover:text-[#2e2f91]'>
+            <SwiperSlide key={id} className='relative w-full rounded-full px-3 md:my-5 md:px-3 cursor-pointer brightness-90 transition-all duration-300 ease-in-out hover:brightness-100 font-semibold hover:text-[#2e2f91]'>
                 
                 <img
                   src={card.img}
-                  alt={`${card.name} Loading...`}
-                  className='bg-cover h-[75%] w-full object-cover my-2 border-10 border-white shadow-[0_5px_10px_5px_rgba(0,0,0,0.25)] rounded-[400px] transition-all duration-300 ease-in-out scale-100 hover:scale-105'
+                  alt={card.name}
+                  className='bg-cover w-full object-cover my-2 border-[10px] border-white shadow-[0_5px_10px_5px_rgba(0,0,0,0.25)] rounded-full transition-all duration-300 ease-in-out scale-100 hover:scale-105 aspect-[3/5] h-auto'
                 />
 
                 <h5 className='text-center text-[16px] md:text-[17px] rounded-xl text-[#060634] bg-[#f1f1fff7] mx-10 md:mx-5 lg:mx-2 mt-6'>
