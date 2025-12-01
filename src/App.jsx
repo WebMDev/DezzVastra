@@ -11,7 +11,7 @@ function App() {
     <>
       <Navbar />
       <Home />
-      <ProductInfo />
+      {/* <ProductInfo /> */}
       {/* <Routes>
         <Route path='/' element={<Home />} />
 
