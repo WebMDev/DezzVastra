@@ -1,5 +1,5 @@
 import React from 'react';
-import {CardItem} from "../assets/contant.js";
+import {CardItem} from "../assets/content.js";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
 
@@ -30,7 +30,7 @@ const Carousel = () => {
                 <img
                   src={card.img}
                   alt={card.name}
-                  className='bg-cover w-full object-cover my-2 border-[10px] border-amber-50 shadow-[0_5px_10px_5px_rgba(0,0,0,0.25)] rounded-full transition-all duration-300 ease-in-out scale-100 hover:scale-105 aspect-[3/5] h-auto'
+                  className='bg-cover w-full object-cover my-2 border-[10px] border-amber-50 shadow-[0_5px_10px_5px_rgba(0,0,0,0.25)] rounded-full transition-all duration-300 ease-in-out scale-100 hover:scale-105 aspect-[4/5] md:aspect-[3/5] h-auto'
                 />
 
                 <h5 className='text-center text-[16px] md:text-[17px] rounded-2xl text-[#2f3195] bg-amber-50 py-[3px] mx-10 md:mx-5 lg:mx-2 mt-6'>

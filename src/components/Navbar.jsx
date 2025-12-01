@@ -34,14 +34,14 @@ const Navbar = () => {
               </ul>
 
               // {/* Mobile view Menu */}
-            : <ul className='md:hidden flex flex-col justify-center items-end gap-2 bg-white shadow-md text-[13px] font-[500] uppercase absolute top-[100%] right-[0] p-[20px] m-[0_20px] w-fit rounded-b-lg common-padding'>
-                <li className="p-[5px] hover:text-[#3c3eb5] cursor-pointer relative after:absolute after:content-[''] after:left-1/2 after:translate-x-[-50%] after:bottom-0 after:w-0 after:h-[2px] after:bg-[#3c3eb5] after:transition-all after:duration-300 after:ease-in-out hover:after:w-[85%]">Home</li>
+            : <ul className='md:hidden flex flex-col justify-center items-end gap-2 bg-[#ffffff8f] shadow-md text-[13px] font-[500] uppercase absolute top-[100%] right-2 p-[20px] mx-3 w-fit rounded-b-lg common-padding'>
+                <li className="p-[5px] hover:text-[#3c3eb5] cursor-pointer relative after:absolute after:content-[''] after:left-1/2 after:translate-x-[-50%] after:bottom-0 after:w-0 after:h-[2px] after:bg-[#3c3eb5] after:transition-all after:duration-300 after:ease-in-out hover:after:w-[85%]" onClick={() => setMenu(false)}>Home</li>
 
-                <li className="p-[5px] hover:text-[#3c3eb5] cursor-pointer relative after:absolute after:content-[''] after:left-1/2 after:translate-x-[-50%] after:bottom-0 after:w-0 after:h-[2px] after:bg-[#3c3eb5] after:transition-all after:duration-300 after:ease-in-out hover:after:w-[80%]">Product</li>
+                <li className="p-[5px] hover:text-[#3c3eb5] cursor-pointer relative after:absolute after:content-[''] after:left-1/2 after:translate-x-[-50%] after:bottom-0 after:w-0 after:h-[2px] after:bg-[#3c3eb5] after:transition-all after:duration-300 after:ease-in-out hover:after:w-[80%]" onClick={() => setMenu(false)}>Product</li>
 
-                <li className="p-[5px] hover:text-[#3c3eb5] cursor-pointer relative after:absolute after:content-[''] after:left-1/2 after:translate-x-[-50%] after:bottom-0 after:w-0 after:h-[2px] after:bg-[#3c3eb5] after:transition-all after:duration-300 after:ease-in-out hover:after:w-[85%]">About</li>
+                <li className="p-[5px] hover:text-[#3c3eb5] cursor-pointer relative after:absolute after:content-[''] after:left-1/2 after:translate-x-[-50%] after:bottom-0 after:w-0 after:h-[2px] after:bg-[#3c3eb5] after:transition-all after:duration-300 after:ease-in-out hover:after:w-[85%]" onClick={() => setMenu(false)}>About</li>
 
-                <li className="p-[5px] hover:text-[#3c3eb5] cursor-pointer relative after:absolute after:content-[''] after:left-1/2 after:translate-x-[-50%] after:bottom-0 after:w-0 after:h-[2px] after:bg-[#3c3eb5] after:transition-all after:duration-300 after:ease-in-out hover:after:w-[85%]">Contact</li>
+                <li className="p-[5px] hover:text-[#3c3eb5] cursor-pointer relative after:absolute after:content-[''] after:left-1/2 after:translate-x-[-50%] after:bottom-0 after:w-0 after:h-[2px] after:bg-[#3c3eb5] after:transition-all after:duration-300 after:ease-in-out hover:after:w-[85%]" onClick={() => setMenu(false)}>Contact</li>
               </ul>
           }
 

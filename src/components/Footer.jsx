@@ -57,7 +57,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className='pt-[40px] border-t-1 w-full border-white text-center'>
+        <div className='pt-[40px] border-t w-full border-white/60 text-center'>
           Copyright <sup>©</sup>2025 DazzVastra Pvt. Ltd. All rights reserved.
         </div>
       </footer>

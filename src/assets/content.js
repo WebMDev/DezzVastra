@@ -55,48 +55,48 @@ export const Cards = [
         id: 1,
         img: mens,
         title: "Men's Wear",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime."
+        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime."
     },
     {
         id: 2,
         img:womens,
         title: "Women's Wear",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime."
+        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime."
     },
     {   
         id: 3,
         img: traditional,
         title: "Traditional",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime."
+        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime."
     },
     {
         id: 4,
         img: party,
         title: "Party Wear",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime."
+        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime."
     },
     // {   
     //     id: 5,
     //     img: accessories,
     //     title: "Accessories",
-    //     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime."
+    //     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime."
     // },
     // {
     //     id: 6,
     //     img: footwear,
     //     title: "Footwear",
-    //     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime."
+    //     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime."
     // },
     // {
     //     id: 7,
     //     img: party,
     //     title: "party",
-    //     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime."
+    //     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime."
     // },
     // {
     //     id: 8,
     //     img: traditional,
     //     title: "Traditional",
-    //     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime."
+    //     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime."
     // },
 ]

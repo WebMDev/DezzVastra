@@ -1,7 +1,7 @@
 import React from 'react';
 import Heading from '../utility/Heading';
 import { FaArrowsTurnRight, FaWhatsapp } from 'react-icons/fa6';
-import { Cards } from '../assets/contant.js';
+import { Cards } from '../assets/content.js';
 import ButtonCTA from '../utility/ButtonCTA';
 
 const Products = () => {
@@ -14,11 +14,11 @@ const Products = () => {
 
           {
             Cards.map((card, id) => (
-            <div className=' bg-white shadow-md mb-5 rounded-2xl overflow-hidden transition-transform hover:scale-[1.01] hover:shadow-lg' key={id}>
-              <img src={card.img} alt={card.title} className='w-full aspect-6/4 object-cover' />
+            <div className=' bg-white shadow-md mb-5 rounded-2xl overflow-hidden transition-transform hover:scale-[1.01] hover:shadow-lg md:text-start text-center' key={id}>
+              <img src={card.img} alt={card.title} className='w-full aspect-[6/4] object-cover' />
 
               <div className='p-5'>
-                <h5 className='text-lg font-semibold text-gray-900 mb-2'>{card.title}</h5>
+                <h5 className='text-xl font-semibold text-gray-900 mb-2'>{card.title}</h5>
 
                 <p className='text-gray-500 text-sm font-medium mb-5'>{card.desc}</p>
 
