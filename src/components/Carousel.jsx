@@ -11,8 +11,7 @@ const Carousel = () => {
         
         <Swiper  modules={[Navigation, Autoplay]}
         navigation
-        lazy={true} 
-        autoplay={{ delay: 5000, disableOnInteraction: false }}
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
         loop={true}
         spaceBetween={12}
         // sensible mobile-first defaults
