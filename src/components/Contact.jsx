@@ -11,7 +11,7 @@ const Contact = () => {
         <div className='flex flex-col md:flex-row justify-between items-center gap-10 w-full px-5'>
           <div className='flex justify-center p-6 bg-white rounded-md shadow-[0_5px_15px_rgba(0,0,0,0.25)] w-full h-auto md:h-[450px] lg:h-[435px]'>
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" className='w-full' frameborder="0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" className='w-full' style={{ border: 0 }}></iframe>
           </div>
 
           <div className='flex justify-start items-center gap-4 py-6 px-6 rounded-md shadow-[0_5px_15px_rgba(0,0,0,0.25)] w-full'>

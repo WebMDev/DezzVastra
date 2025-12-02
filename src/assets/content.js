@@ -54,26 +54,30 @@ export const Cards = [
     {   
         id: 1,
         img: mens,
-        title: "Men's Wear",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime."
+        title: "Product 1",
+        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime.",
+        price: 450
     },
     {
         id: 2,
         img:womens,
-        title: "Women's Wear",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime."
+        title: "Product 2",
+        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime.",
+        price: 450
     },
     {   
         id: 3,
         img: traditional,
-        title: "Traditional",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime."
+        title: "Product 3",
+        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime.",
+        price: 350
     },
     {
         id: 4,
         img: party,
-        title: "Party Wear",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime."
+        title: "Product 4",
+        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime.",
+        price: 550
     },
     // {   
     //     id: 5,

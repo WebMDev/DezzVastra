@@ -7,12 +7,13 @@ import Contact from '../components/Contact';
 
 const Home = () => {
   return (
+    
     <>
-        <Hero />
-        <Carousel />
-        <Products />
-        <About />
-        <Contact />   
+      <Hero />
+      <Carousel />
+      <Products />
+      <About />
+      <Contact />   
     </>
   )
 }

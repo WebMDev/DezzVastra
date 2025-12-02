@@ -3,22 +3,23 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import ProductInfo from './pages/ProductInfo';
-// import { Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
 
   return (
     <>
+      
       <Navbar />
-      <Home />
-      {/* <ProductInfo /> */}
-      {/* <Routes>
+
+      <Routes>
         <Route path='/' element={<Home />} />
 
-        <Route path='/productinfo' element={<ProductInfo />} />
-      </Routes> */}
+        <Route path='/productinfo/:id' element={<ProductInfo />} />
+      </Routes>
       
       <Footer />
+    
     </>
   )
 }
