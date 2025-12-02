@@ -68,27 +68,6 @@ const Contact = () => {
                 </span>
               </div>
             </div>
-            
-            {/* <form action="" className='flex flex-col justify-center items-center gap-4 border-l-1 border-gray-300 w-full p-10 h-full'>
-              <div className='flex justify-center items-center gap-4 mb-5'>
-                <label htmlFor="">Name</label>
-                <input type="text" className='border-1 border-gray-400 rounded-sm px-4 py-2' />
-              </div>
-
-              <div className='flex justify-center items-center gap-4 mb-5'>
-                <label htmlFor="">Email</label>
-                <input type="email" className='border-1 border-gray-400 rounded-sm px-4 py-2' />
-              </div>
-
-              <div className='flex justify-center items-start gap-4 mb-5'>
-                <label htmlFor="" cla>Message</label>
-                <textarea type="textarea" className='border-1 border-gray-400 rounded-sm px-4 py-2' />
-              </div>
-
-              <div>
-                <ButtonCTA name={"Submit"}/>
-              </div>
-            </form> */}
           </div>
         </div>
       </section>
