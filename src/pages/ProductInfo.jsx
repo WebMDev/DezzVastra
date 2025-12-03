@@ -26,7 +26,7 @@ const ProductInfo = () => {
             <div className="w-full md:w-1/2 flex justify-center">
               <img
                 src={product.img}
-                className="w-full h-full max-h-[550px] rounded-2xl object-cover border shadow-md"
+                className="w-full h-full max-h-[550px] rounded-2xl object-cover border-2 border-amber-50 shadow-xl"
                 alt={product.title}
               />
             </div>

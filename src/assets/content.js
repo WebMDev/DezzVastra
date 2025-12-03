@@ -7,6 +7,12 @@ import footwear from "./carousel/footwear.jpg";
 import arrivals from "./carousel/arrivals.jpg";
 import sale from "./carousel/sale.jpg"
 
+// Products IMG
+import jacket from "./products/jacket.jpg";
+import saree from "./products/saree.jpg";
+import tshirt from "./products/tshirt.jpg";
+import shoes from "./products/shoes.jpg";
+
 export const CardItem = [
     {   
         id: 1,
@@ -53,29 +59,29 @@ export const CardItem = [
 export const Cards = [
     {   
         id: 1,
-        img: mens,
-        title: "Product 1",
+        img: jacket,
+        title: "Winter Jacket",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime.",
         price: 450
     },
     {
         id: 2,
-        img:womens,
-        title: "Product 2",
+        img: saree,
+        title: "Traditional Saree",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime.",
         price: 450
     },
     {   
         id: 3,
-        img: traditional,
-        title: "Product 3",
+        img: tshirt,
+        title: "tShirt",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime.",
         price: 350
     },
     {
         id: 4,
-        img: party,
-        title: "Product 4",
+        img: shoes,
+        title: "Shoes",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, maxime.",
         price: 550
     },
