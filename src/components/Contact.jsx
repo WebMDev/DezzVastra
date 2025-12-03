@@ -11,7 +11,7 @@ const Contact = () => {
         <div className='flex flex-col md:flex-row justify-between items-center gap-10 w-full px-5'>
           <div className='flex justify-center p-6 bg-white rounded-md shadow-[0_5px_15px_rgba(0,0,0,0.25)] w-full h-auto md:h-[450px] lg:h-[435px]'>
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.9995781756947!2d75.78727087503368!3d26.91243385960715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db18b6e5b1ccb%3A0xdeb4908a0f2b6e!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" className='w-full' style={{ border: 0 }}></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.831468135615!2d75.8267392!3d26.9239368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db1edb5a6b9e1%3A0xd39ab8af2a92782!2sHawa%20Mahal!5e0!3m2!1sen!2sin!4v1704378400001!5m2!1sen!2sin" className='w-full' style={{ border: 0 }}></iframe>
           </div>
 
           <div className='flex justify-start items-center gap-4 py-6 px-6 rounded-md shadow-[0_5px_15px_rgba(0,0,0,0.25)] w-full'>
